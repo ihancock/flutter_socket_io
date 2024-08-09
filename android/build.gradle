@@ -22,9 +22,10 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace = "com.infitio.adharasocketio"
     compileSdkVersion 31
     defaultConfig {
-        minSdkVersion 16
+        minSdkVersion 21
         multiDexEnabled true
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
